@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>---</title>
+    <link href="style/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=""/>
+   <meta name="keywords" content="">
+   <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" type="image/x-icon" href="" />
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Malar" rel="stylesheet">
+    
+
+</head>
+<body>
+<div class="main">
+<div class="header_box">
+<header>
+    
+    <div class="row">
+        <div class="s3">
+            <a href="#" class="logo"><span>Demo</span><span>Shop</span></a>
+        </div>
+        <div class="s6">
+            <form action="" method="post" class="search">
+                <input type="text" placeholder="Suchbegriff..">
+               <button class="glyphicon glyphicon-search"></button>
+            </form>
+        </div>
+        <div class="s3">
+           
+           <button class="glyphicon glyphicon-time"><span id="digital_watch"></span></button>
+           <button class="glyphicon glyphicon-list-alt"></button>
+           <button class="glyphicon glyphicon-question-sign"></button>
+           
+           <div class="header_menu_buttons">
+            <button class="glyphicon glyphicon-heart"></button>
+            <button class="glyphicon glyphicon-user"></button>
+            <button id="basket_open" class="glyphicon glyphicon-shopping-cart"><span id="sum">0,00</span><span id="sum_e">€*</span></button>
+            </div>
+        </div>
+    </div>
+    <nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Hohenluft & Abenteure</a></li>
+        <li><a href="#" id="active">Kochust & Provence</a></li>
+        <li><a href="#">Handwerk & Tradition</a></li>
+        <li><a href="#">Specials & Sale</a></li>
+        <li><a href="#">Blog</a></li>
+    </ul>
+</nav>
+</header>
+</div>
+
+<div class="content_box">
+<div class="crumbs">
+    <a href="#">Kochust & Provence</a>
+    <a href="#">Essen</a>
+    <a href="#">Ole & Gewurze</a>
+    <a href="#" id="active_crumbs">Essign & Ol</a>
+</div>
+
+<div class="market_box">
+    <h3>Topseller</h3>
+    <hr>
+    <div class="row">
+        <div class="s2">
+           <div class="product">
+               <img src="img/De-Cecco-Classico-460x460.jpg" alt="Oil">
+               <span class="name_p">Quinta de Sao gga</span>
+               <span>inhalt 0.25 Liter (39,96€/ 1 Liter)</span>
+               <span><span class="price_p black">5.90</span>€*</span>
+           </div>
+        </div>
+         <div class="s2">
+           <div class="product">
+               <img src="img/extra-virgin-gold-extracted-olive-oil-300x300.jpg" alt="Oil">
+                <span class="name_p">Quinta de Sao Vicente</span>
+               <span>inhalt 0.25 Liter (39,96€/ 1 Liter)</span>
+               <span><span class="price_p black">9.90</span>€*</span>
+           </div>
+        </div>
+         <div class="s2">
+           <div class="product">
+               <img src="img/olivkovoe-maslo-carapelli-delicato-extra-vergine.jpg" alt="Oil">
+                 <span class="name_p">Quinta de Sao Ol</span>
+               <span>inhalt 0.25 Liter (39,96€/ 1 Liter)</span>
+               <span><span class="price_p black">7.20</span>€*</span>
+           </div>
+        </div>
+    </div>
+</div>
+<div class="shadow" id="shadow"></div>
+<div class="basket" id="basket">
+    <div class="head_basket">
+        <span id="close_basket">Waiter einkaufen</span>
+    </div>
+    
+    <div class="products">
+       
+    </div>
+     <div class="product_basket hide">
+           <img src="" alt="Oil">
+           <div class="product_basket_box">
+            <span class="count_p">1</span><span class="count_p_x">x</span> <span class="name_p">Quinta de Sao Vicente</span>
+             <span class="price_p"><span class="price_p_x"></span></span>
+             </div>
+             <div class="product_basket_box_button">
+             <button class="delete_p">X</button>
+             </div>
+        </div>
+    <div class="result">
+       <table>
+           <tr>
+               <td class="bold">Zwischensumme</td>
+               <td class="bold"><span id="sum2">0.00</span>€</td>
+           </tr>
+            <tr>
+               <td><span>Punkte fur die Bestellung:</span></td>
+               <td ><span>0</span>€*</td>
+           </tr>
+            <tr>
+               <td> <span>Punkte eingelost:</span></td>
+               <td><span>0</span>€*</td>
+           </tr>
+       </table>
+       
+       <button class="zur">Zur Kasse</button> 
+       <button class="Warenkorb">Warenkorb bearbeiten</button> 
+    </div>
+</div>
+<div class="name_form">
+    <form action="" method="post">
+        <input type="text">
+        <button>Ок</button>
+    </form>
+</div>
+
+</div>
+</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/mine.js"></script>
+</body>
+</html>

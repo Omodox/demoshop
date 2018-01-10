@@ -1,0 +1,430 @@
+@import url(reset.css);
+@import url(grid.css);
+
+body {
+    
+    font-family: 'Mukta Malar', sans-serif;
+    background: #e9e9f1;
+}
+
+
+a {
+    color: #627488;
+}
+
+
+header{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0px 0px 0px;
+}
+
+.logo {
+       display: block;
+    margin-top: 30px;
+}
+
+.logo span{
+    font-size: 50px;
+    color: #000;
+    font-weight: 700;
+}
+
+.logo span:nth-child(2) {
+    color: #627488;
+    font-weight: 300;
+}
+
+
+.header_box {
+    border-bottom: 1px solid #db410d;
+    background: #fff;
+}
+
+
+.container {
+    background: #fff;
+    margin-top: 30px;
+}
+
+
+.content_box {
+    background: #fff;
+    width: 80%;
+    margin: 20px auto;
+    padding: 15px;
+    
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    margin: 0px;
+    margin-bottom: -1px;
+}
+
+nav a {
+    padding: 5px 10px 0px 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+#active {
+    background:linear-gradient(to bottom, #fa5d26, #da400c);
+    color: #fff;
+}
+
+
+.zur {
+     background:linear-gradient(to bottom, #fa5d26, #da400c);
+    color: #fff;
+    border: 0px;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+
+.zur:after, .Warenkorb:after {
+     content: ">";
+   right: 15px;
+    position: absolute;
+}
+
+
+.Warenkorb {
+    color: #666;
+    border: 1px solid #ccc;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.search input {
+    border: 0px;
+    background: none;
+    width: 84%;
+}
+
+.search input:focus {
+    border: 0px;
+    outline: none;
+}
+
+.search {
+    border: 1px solid #ccc;
+    width: 264px;
+    padding: 8px;
+    background: #f8f8fa;
+    margin-top: 20px;
+
+}
+
+.search button {
+    border: 0px;
+    background: none;
+    font-size: 18px;
+        color: #5f7185;
+}
+
+
+.search input:placeohlder {
+    color: #ccc;
+}
+
+
+
+hr {
+    border: 0px;
+    height: 1px;
+    background: #ccc;
+    display: block;
+    width: 95%;
+    margin: auto;
+    
+}
+
+.crumbs {
+    margin: 0px 5px;
+}
+
+.crumbs a {
+    margin: 0px 15px;
+    position: relative;
+}
+
+.crumbs a:after {
+    content: ">";
+   margin-left: 13px;
+    position: absolute;
+    
+}
+
+#active_crumbs {
+    color: #db410d;
+}
+
+#active_crumbs:after {
+    display: none;
+}
+
+.market_box h3 {
+    margin: 10px 35px;
+}
+
+.product{
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+      border: 1px solid #fff;
+    margin: 15px;
+}
+
+
+.product:hover {
+    border: 1px solid #ccc;
+}
+
+
+
+.market_box{
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.basket  {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 20%;
+    height: 100%;
+    background: #fff;
+    display: none;
+}
+
+
+.shadow {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #0000008f;
+    display: none;
+    
+}
+
+.head_basket {
+  background:linear-gradient(to bottom, #65717d, #424e5a);
+    color: #fff;
+    padding: 20px 40px;
+    font-size: 22px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.head_basket span:before {
+    content: "<";
+    position: absolute;
+    margin-left: -20px;
+}
+
+
+
+.product_basket {
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0px 20px 0px;
+}
+
+.product_basket img {
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+}
+
+.product_basket_box  {
+    display: inline-block;
+    width: 67%;
+      vertical-align: middle;
+}
+
+
+.products {
+    padding: 15px;
+}
+
+
+.header_menu_buttons  button{
+    padding: 8px 10px;
+    border: 1px solid #dadae6;
+    color: #5f7185;
+    font-size: 18px;
+     background:linear-gradient(to bottom, #fefeff, #f8f8fa);
+    cursor: pointer;
+}
+
+#sum, #sum_e {
+    color: red;
+    font-size: 18px;
+}
+
+
+.count_p, .count_p_x, .price_p , .price_p_x {
+    font-weight: 700;
+    color: #5f7185;
+    font-size: 20px;
+    padding: 0px 2px;
+}
+
+
+
+
+
+.product_basket_box_button{
+display: inline-block;
+    width: 10%;
+}
+
+.product_basket_box_button button {
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    background: none;
+    font-weight: 700;
+    color: #777;
+    cursor: pointer;
+}
+
+
+.result table {
+    width: 95%;
+    margin: auto;
+    
+}
+
+.result table td {
+    padding: 4px;
+}
+
+.hide {
+    display: none;
+}
+
+.black {
+    color: #000;
+}
+
+.bold {
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.heart {
+    position: relative;
+}
+
+
+.heart:after {
+    content: "3";
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    color: red;
+    background: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
+    vertical-align: middle;
+    display: block;
+    border: 1px solid #dadae6;
+    border-radius: 50%;
+    top: -6px;
+    right: -3px;
+}
+
+
+.product span:nth-child(3) {
+    font-size: 12px;
+    display: block;
+}
+
+
+.name_form {
+    position: fixed;
+    height: 200px;
+    width: 30%;
+    display: none;
+    margin: auto;
+    background: #e9e9f1;
+    top: 15%;
+    left: 35%;
+    padding: 20px;
+    
+}
+
+.name_form .form_box {
+    background: #fff;
+    height: 80%;
+    width: 92%;
+    padding: 20px;
+}
+
+
+.name_form form {
+   padding: 50px;
+    display: block;
+    text-align: center;
+}
+
+.name_form input {
+        border: 1px solid #ccc;
+    width: 210px;
+    padding: 8px;
+    background: #f8f8fa;
+}
+
+.gold {
+    color: #eec110;
+}
+
+
+#Aktien {
+    display: none;
+    height: 480px;
+}
+
+#close_basket {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.right_top_nav {
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+
+.right_top_nav button {
+    border: 0px;
+    background: none;
+}
+
+
+
